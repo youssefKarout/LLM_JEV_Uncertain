@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchao>=0.16.0
+transformers>=4.40
+datasets>=2.19
+tokenizers
+huggingface-hub
+pandas
+scikit-learn
+tqdm
+pyyaml
+peft
+

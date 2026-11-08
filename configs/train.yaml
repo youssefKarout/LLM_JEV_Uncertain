@@ -1,0 +1,18 @@
+seed: 42
+model_name: Qwen/Qwen3-0.6B
+max_len: 512
+batch_size: 8
+grad_accum: 2
+log_every: 20
+epochs: 6
+lr: 2.0e-4
+weight_decay: 0.01
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+heads: 4
+head_dropout: 0.1
+max_steps: null  # dry-run cap; null for full
+eval_clean_cap: 200  # held-out clean eval rows at end; null = full validation
+uncal_threshold: 0.5
+out_dir: outputs/jev_run

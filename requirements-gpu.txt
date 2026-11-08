@@ -1,0 +1,11 @@
+torch
+transformers>=4.40
+datasets>=2.19
+tokenizers
+huggingface-hub
+pandas
+scikit-learn
+tqdm
+pyyaml
+peft
+accelerate

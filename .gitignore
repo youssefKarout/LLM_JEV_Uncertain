@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+logs/
+outputs/
+data/*.jsonl
+data/*.json
+*.ipynb
+*.pt
+*.bat
+local/*

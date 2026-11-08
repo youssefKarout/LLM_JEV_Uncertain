@@ -1,0 +1,16 @@
+seed: 42
+model_name: Qwen/Qwen3-0.6B
+mode: head  # head | gen
+max_len: 512
+batch_size: 4
+grad_accum: 4
+epochs: 5
+lr: 2.0e-5
+weight_decay: 0.01
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+log_every: 1
+max_steps: null
+eval_clean_cap: 200  # held-out clean eval rows per epoch; null = full validation
+out_dir: outputs/jev_direct
